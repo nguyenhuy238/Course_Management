@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\GIGABYTE\source\repos\PRN212_SE1907\CourseManagement\App.xaml
-2-635049343
+3-385588173
 
-16-629495215
+17632825383
 2441621575898
-AddSchedule.xaml;MainWindow.xaml;
+AddSchedule.xaml;EditSchedule.xaml;MainWindow.xaml;
 
 False
 

@@ -5,5 +5,8 @@
     <Compile Update="AddSchedule.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="EditSchedule.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

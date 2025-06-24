@@ -96,5 +96,38 @@ namespace CourseManagement
             //    LoadData();
             //}
         }
+
+        private void btnEdit_Click(object sender, RoutedEventArgs e)
+        {
+            var selected = ScheduleGrid.SelectedItem as CourseSchedule;
+            if (selected == null) {
+                MessageBox.Show("Please select a schedule to edit.");
+                return;
+            }
+            else
+            {
+                var edit = new EditSchedule(selected);
+                if (edit.ShowDialog() == true)
+                {
+                    var update = edit.updateSchedule;
+                    var check = context.CourseSchedules.Find(update.TeachingScheduleId);
+                    if (check != null)
+                    {
+                        check.CourseId = update.CourseId;
+                        check.TeachingDate = update.TeachingDate;
+                        check.Slot = update.Slot;
+                        check.RoomId = update.RoomId;
+                        check.Description = update.Description;
+                        context.SaveChanges();
+                        LoadData(selected.CourseId);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Schedule not found.");
+                    }
+                }
+                
+            }
+        }
     }
 }

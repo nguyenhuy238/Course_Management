@@ -141,3 +141,6 @@ C:\Users\GIGABYTE\source\repos\PRN212_SE1907\CourseManagement\obj\Debug\net8.0-w
 C:\Users\GIGABYTE\source\repos\PRN212_SE1907\CourseManagement\bin\Debug\net8.0-windows\appsettings.json
 C:\Users\GIGABYTE\source\repos\PRN212_SE1907\CourseManagement\obj\Debug\net8.0-windows\AddSchedule.g.cs
 C:\Users\GIGABYTE\source\repos\PRN212_SE1907\CourseManagement\obj\Debug\net8.0-windows\AddSchedule.baml
+C:\Users\GIGABYTE\source\repos\PRN212_SE1907\CourseManagement\obj\Debug\net8.0-windows\EditSchedule.g.cs
+C:\Users\GIGABYTE\source\repos\PRN212_SE1907\CourseManagement\obj\Debug\net8.0-windows\EditSchedule.baml
+C:\Users\GIGABYTE\source\repos\PRN212_SE1907\CourseManagement\obj\Debug\net8.0-windows\CourseManagement.sourcelink.json
